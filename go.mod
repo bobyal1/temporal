@@ -71,7 +71,6 @@ require (
 	go.opentelemetry.io/otel/trace v1.45.0
 	go.opentelemetry.io/proto/otlp v1.11.0
 	go.temporal.io/api v1.63.8-0.20261014221631-25d6833c5701
-	go.temporal.io/auto-scaled-workers v0.0.0-20261013231030-67ffdef6330d
 	go.temporal.io/sdk v1.49.0
 	go.uber.org/fx v1.24.0
 	go.uber.org/goleak v1.3.0
@@ -224,3 +223,5 @@ require (
 )
 
 tool golang.org/x/perf/cmd/benchstat
+replace go.temporal.io/auto-scaled-workers => github.com/bobyal1/temporal-auto-scaled-workers v0.0.0-20261020130300-e3b0158
+
