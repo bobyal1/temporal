@@ -225,6 +225,6 @@ require (
 tool golang.org/x/perf/cmd/benchstat
 // Testing with the changes to auto scalers
 
-replace go.temporal.io/auto-scaled-workers => github.com/bobyal1/temporal-auto-scaled-workers v0.0.0-20261020130300-e3b0158015ff
+replace go.temporal.io/auto-scaled-workers => github.com/bobyal1/temporal-auto-scaled-workers feat/aws-sns-provider
 
 
